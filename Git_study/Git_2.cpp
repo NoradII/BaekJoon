@@ -20,6 +20,9 @@ int main() {
 	case '*':
 		cout << a*b << endl;
 		break;
+	case '/':
+		cout << a / b << endl;
+		break;
 	default:
 		break;
 	}
