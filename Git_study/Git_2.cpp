@@ -21,10 +21,7 @@ int main() {
 		cout << a*b << endl;
 		break;
 	case '/':
-		if (b == 0)
-			cout << "Error" << endl;
-		else
-			cout << a / b << endl;
+		cout << a / b << endl;
 		break;
 	case '%':
 		cout << a%b << endl;
